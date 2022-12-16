@@ -1,0 +1,64 @@
+:root{
+    --color-red: red;
+    --color-subtitle: #bB3001;
+    --color-black: black;
+    --color-gray: gray;
+    --color-dark-gray:#454955;
+    --color-green: #00FF00;
+    --color-white: white;
+    --color-background-navbar: rgba(192, 192, 192, 0.8);
+}
+
+.title{
+    color: var(--color-red);
+}
+
+.subtitle{
+    color: var(--color-subtitle);
+}
+
+#navbar a{
+    color: var(--color-black);
+    background-color: var(--color-background-navbar);
+}
+
+h2{
+    color: var(--color-red);
+}
+.prezzo_in_sconto{
+    color: var(--color-red);
+    
+}
+.caratteristiche .fakeLink{
+    color: var(--color-gray);
+}
+.caratteristiche .fakeLink:hover{
+    color: var(--color-dark-gray);
+}
+.acquista button{
+    background-color: var(--color-green);
+    color: var(--color-black);
+}
+
+footer{
+    background-color: var(--color-gray);
+}
+.social-links i{
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+.fa-facebook:hover{
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.fa-twitter:hover{
+    background-color: #00acee;
+    color: #fff;
+}
+  
+.fa-instagram:hover{
+    background-color: #e1306c;
+    color: #fff;
+}
+  
